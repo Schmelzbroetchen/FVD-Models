@@ -4,7 +4,7 @@ cloned from [https://github.com/you359/Keras-FasterRCNN](https://github.com/you3
 
 ## SETUP:
 
-1) Eine neue Environment mit Python 3.6 erstellen, in der die Requirements installiert werden sollen (ich habe Anaconda dafür verwendet).
+1) Eine neue Environment mit Python 3.6 erstellen, in der die Requirements installiert werden sollen (für die Untersuchungen wurde Anaconda verwendet).
 2) Mit 'pip install numpy --user' versichern, dass Numpy installiert ist.
 3) Die anderen Requirements mit "pip install -r requirements.txt --user" installieren.
 
@@ -23,5 +23,5 @@ python test_frcnn.py -p ..\..\Datenbank\Test-Images\
 ## Reference
 [1] [Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks, 2015](https://arxiv.org/pdf/1506.01497.pdf) <br/>
 [2] [Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning, 2016](https://arxiv.org/pdf/1602.07261.pdf) <br/>
-[3] [https://github.com/yhenon/keras-frcnn/](https://github.com/yhenon/keras-frcnn/)
+[3] [https://github.com/yhenon/keras-frcnn/](https://github.com/yhenon/keras-frcnn/)<br>
 [4] [https://github.com/you359/Keras-FasterRCNN](https://github.com/you359/Keras-FasterRCNN)
