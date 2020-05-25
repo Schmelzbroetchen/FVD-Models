@@ -5,7 +5,7 @@ Cloned from [https://github.com/xuannianz/keras-fcos](https://github.com/xuannia
 ## SETUP
 
 1) Environment für FCOS erstellen (in der Arbeit wurde Anaconda genutzt).
-2) Sicherstellen, dass TensorFlow Version 1.15. installiert ist mit ```pip install tensorflow==1.15 --user```
+2) Sicherstellen, dass TensorFlow Version 1.15. installiert ist mit ```pip install tensorflow==1.14 --user```
 3) Requirements installieren mit ```pip install -r requirements.txt --user```
 4) ```python setup.py build_ext --inplace``` ausführen.
 
