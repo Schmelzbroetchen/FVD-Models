@@ -1,3 +1,6 @@
+## Dieser Code stammt ursprünglich von https://github.com/you359/Keras-FasterRCNN und wurde leicht für die Kriterien der Arbeit von mir abgeändert.
+## Eigene Code-Stellen werden gekennzeichnet.
+
 from keras.engine import Layer, InputSpec
 from keras import initializers, regularizers
 from keras import backend as K
