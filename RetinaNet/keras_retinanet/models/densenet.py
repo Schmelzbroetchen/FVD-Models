@@ -1,5 +1,5 @@
 """
-Copyright 2017-2018 Fizyr (https://fizyr.com)
+Copyright 2018 vidosits (https://github.com/vidosits/)
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -13,7 +13,7 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 
-Dieser Code stammt ursprünglich von https://github.com/fizyr/keras-retinanet und wurde für diese Arbeit modifiziert.
+Für diese Arbeit gecloned von von https://github.com/fizyr/keras-retinanet und wurde für diese Arbeit modifiziert.
 Eigene Code-Stellen oder Abänderungen werden markiert.
 """
 
