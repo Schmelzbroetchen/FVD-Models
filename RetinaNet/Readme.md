@@ -5,7 +5,7 @@ Cloned from [https://github.com/fizyr/keras-retinanet](https://github.com/fizyr/
 
 ## SETUP
 1) Eine neue Environment mit Python 3.6 erstellen, in der die Requirements installiert werden sollen (dafür wurde Anaconda verwendet).
-2) Mit ```pip install numpy --user``` Numpy installieren. Außerdem Tensorflow 1.15.0 installieren mit ```pip install tensorflow=1.14.0 --user```
+2) Mit ```pip install numpy --user``` Numpy installieren. Außerdem Tensorflow 1.14.0 installieren mit ```pip install tensorflow=1.14.0 --user```
 4) Vom RetinaNet-Root-Ordner aus mit ```pip install . --user``` und sicherhaltshalber ```pip install -r requirements.txt --user``` die anderen Requirements installieren.
 5) ```python setup.py build_ext --inplace``` ausführen.
 
@@ -21,6 +21,8 @@ Cloned from [https://github.com/fizyr/keras-retinanet](https://github.com/fizyr/
 2) Das Inference-Modell auf Real-Time-Bilder testen:
 - Installieren von ```matplotlib```, falls es noch nicht vorhanden ist mit ```pip install matplotlib```.
 - Im Ordner ```.\testing``` die Variablen ```model_path``` und ```img_name``` im Modul ```realtime-test.py``` anpassen und dann in ```.\testing``` direkt mit der Kommandozeile ausführen.
+
+- Achtung! In der GitHub-Version fehlen die trainierten Gewichte. Diese sind auf dem Stick verfügbar.
 
 ## References
 [1] [https://github.com/fizyr/keras-retinanet](https://github.com/fizyr/keras-retinanet)<br>
