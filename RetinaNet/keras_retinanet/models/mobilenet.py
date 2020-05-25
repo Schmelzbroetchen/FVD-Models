@@ -1,5 +1,5 @@
 """
-Copyright 2017-2018 Fizyr (https://fizyr.com)
+Copyright 2017-2018 lvaleriu (https://github.com/lvaleriu/)
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
