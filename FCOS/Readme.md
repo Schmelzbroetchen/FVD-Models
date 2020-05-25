@@ -18,6 +18,7 @@ Cloned from [https://github.com/xuannianz/keras-fcos](https://github.com/xuannia
 ```python inference.py```
 
 - ```inference.py``` muss angepasst werden, falls andere Gewichtungen genutzt werden sollen. Das kann mit der Variable ```model_path``` verändert werden.
+- In der GitHub-Version fehlen die trainierten Gewichte! Diese sind auf dem Stick verfügbar.
 - Das Ausführen von ```inference.py``` testet alle Bilder im Test-Images Ordner und speichert die Ergebnisse mit eingezeichneten Begrenzungsrahmen, Scores und Klassifizierungen in ```.\test```. Es wird außerdem zu jedem Bild die Verarbeitungszeit, sowie die Anzahl der erkannten Obst- und Gemüsesorten in seperaten Textdateien jeweils gespeichert.
 
 ## References
