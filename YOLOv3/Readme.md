@@ -13,6 +13,8 @@ Cloned [from https://github.com/yunlongdong/EasyKerasYoloV3](https://github.com/
 
 - Die Parameter für das Training (Pfade, etc.) werden in ```train.py``` festgelegt. Das Ausführen von ```train.py``` erstellt dann während des Trainings die Checkpoints und Logs im Ordner ```.\logs.```
 
+- Für das Training sind die ```yolo_weights.h5``` nötig, die sich auf dem Stick in .\model_data befinden. Sie können aber auch unter [http://pjreddie.com/media/files/yolo.weights](http://pjreddie.com/media/files/yolo.weights) heruntergeladen werden.
+
 ### Command zum Testen (für diese Arbeit):
 ```python yolo_detect.py```
 
