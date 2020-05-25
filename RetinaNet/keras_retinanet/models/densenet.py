@@ -13,7 +13,7 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 
-Für diese Arbeit gecloned von von https://github.com/fizyr/keras-retinanet und wurde für diese Arbeit modifiziert.
+Für diese Arbeit gecloned von von https://github.com/fizyr/keras-retinanet.
 Eigene Code-Stellen oder Abänderungen werden markiert.
 """
 
