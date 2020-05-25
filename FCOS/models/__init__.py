@@ -1,5 +1,7 @@
-'''Für diese Arbeit gecloned von von https://github.com/fizyr/keras-retinanet.
-Eigene Code-Stellen oder Abänderungen werden markiert.'''
+'''
+Für diese Arbeit gecloned von von https://github.com/fizyr/keras-retinanet.
+Eigene Code-Stellen oder Abänderungen werden markiert.
+'''
 
 from __future__ import print_function
 import sys
