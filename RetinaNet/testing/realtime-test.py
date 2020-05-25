@@ -138,6 +138,7 @@ with open('{}_count.txt'.format(img_name), 'w') as countfile:
     countfile.write(str(processingtime))
     countfile.write("\n" + "Kokosnüsse: " + str(cocos_count) + "\n" + "Kiwis: " + str(kiwi_count) + "\n" +
                     "Äpfel: " + str(apple_count) + "\n" + "Tomaten: " + str(tomato_count))
+    
 # Anzeige des Bildes
 plt.figure(figsize=(15, 15))
 plt.axis('off')
