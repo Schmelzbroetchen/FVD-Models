@@ -5,9 +5,9 @@ Cloned from [https://github.com/fizyr/keras-retinanet](https://github.com/fizyr/
 
 ## SETUP
 1) Eine neue Environment mit Python 3.6 erstellen, in der die Requirements installiert werden sollen (dafür wurde Anaconda verwendet).
-2) Mit ```pip install numpy --user``` Numpy installieren. Außerdem Tensorflow 1.15.0 installieren mit ```pip install tensorflow=1.15.0 --user```
-4) Vom RetinaNet-Root-Ordner aus mit 'pip install . --user' die anderen Requirements installieren.
-5) 'python setup.py build_ext --inplace' ausführen.
+2) Mit ```pip install numpy --user``` Numpy installieren. Außerdem Tensorflow 1.15.0 installieren mit ```pip install tensorflow=1.14.0 --user```
+4) Vom RetinaNet-Root-Ordner aus mit ```pip install . --user``` und sicherhaltshalber ```pip install -r requirements.txt --user``` die anderen Requirements installieren.
+5) ```python setup.py build_ext --inplace``` ausführen.
 
 - Es kann sein, dass die wichtigen .exe Dateien, wie retinanet-train.exe, retinanet-debug.exe, retinanet-evaluate.exe, retinanet-convert-model.exe nicht in der Bibliothek der Environment installiert werden. Falls der Fehler angezeigt wird, dass sie nicht im Path sind, das Python\Scripts Verzeichnis dem Path hinzufügen oder diese spezifischen .exe Dateien aus den Scripts des Python Ordners in die RetinaNet Environment verschieben (heißt ebenfalls Scripts).
 
