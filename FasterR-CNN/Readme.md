@@ -17,9 +17,9 @@ Die folgenden Commands müssen im Faster R-CNN Root-Ordner ausgeführt werden.
 - Achtung! Die Gewichtungen ```resnet50_weights_tf_dim_ordering_tf_kernels_notop.h5``` sind in der GitHub-Version nicht verfügbar. Auf dem Stick sind sie enthalten, können aber auch unter [https://github.com/fchollet/deep-learning-models/releases](https://github.com/fchollet/deep-learning-models/releases) heruntergeladen werden.
 
 ### Command zum Testen (für diese Arbeit):
-python test_frcnn.py -p ..\..\Datenbank\Test-Images\ 
+```python test_frcnn.py -p ..\..\Datenbank\Test-Images\``` 
 
-- Das Ausführen von test_frcnn.py erstellt in FasterR-CNN\results_imgs\ die Testbilder mit den eingezeichneten Lokalisierungen.
+- Das Ausführen von ```test_frcnn.py``` erstellt in ```FasterR-CNN\results_imgs\``` die Testbilder mit den eingezeichneten Lokalisierungen.
 - Achtung! Die trainierten Gewichtungen dieser Arbeit sind auf der GitHub-Version nicht verfügbar, existieren aber auf dem Stick.
 
 ## Reference
