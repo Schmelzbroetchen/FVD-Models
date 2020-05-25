@@ -5,7 +5,7 @@ Cloned [from https://github.com/yunlongdong/EasyKerasYoloV3](https://github.com/
 ## SETUP:
 
 1. Neue Environment erstellen mit Python 3.6, um Requirements dort zu installieren (für diese Untersuchungen wurde Anaconda verwendet.)
-2. Sicherstellen, dass TensorFlow Version 1.15.0 und Numpy installiert sind mit ```pip install tensorflow==1.15 --user``` und ```pip install numpy --user```
+2. Sicherstellen, dass TensorFlow Version 1.14.0 und Numpy installiert sind mit ```pip install tensorflow==1.14 --user``` und ```pip install numpy --user```
 3. Requirements mit ```pip install -r requirements.txt --user``` installieren.
 
 ### Command zum Trainieren (für diese Arbeit):
