@@ -5,7 +5,7 @@ cloned from [https://github.com/you359/Keras-FasterRCNN](https://github.com/you3
 ## SETUP:
 
 1) Eine neue Environment mit Python 3.6 erstellen, in der die Requirements installiert werden sollen (für die Untersuchungen wurde Anaconda verwendet).
-2) Mit 'pip install numpy --user' versichern, dass Numpy installiert ist.
+2) Mit 'pip install numpy --user' versichern, dass Numpy installiert ist. Außerdem TensorFlow Version 1.14 mit ```pip install tensorflow==1.14 --user``` sicher installieren.
 3) Die anderen Requirements mit "pip install -r requirements.txt --user" installieren.
 
 Die folgenden Commands müssen im Faster R-CNN Root-Ordner ausgeführt werden.
