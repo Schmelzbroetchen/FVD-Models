@@ -7,4 +7,4 @@ numpy>=1.14
 opencv-python>=3.3.0
 pillow
 progressbar2
-tensorflow-cpu==1.15.0
+tensorflow-cpu==2.1.0
